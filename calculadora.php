@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Calculadora</title>
+    <title>Calculadora</title> 
+    <style>
+    body {
+      text-align: center;
+      background-color: grey;
+    }
+    </style>
 </head>
+
 <body>
+    
     <h1>Calculadora</h1>
     <form method="POST" action="calcular.php">
         <label for="num1">Número 1:</label>
